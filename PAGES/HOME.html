@@ -1,0 +1,939 @@
+<!--Home Page-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>WoW Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/Home.css">
+</head>
+
+<body>
+    <!--Start of Header-->
+    <header>
+        <div class="logo">
+            <img src="images/LOGO.png">
+        </div>
+        <ul>
+            <li>
+                <i class="fas fa-home"></i>
+                <a href="HOME.html" class="active">Home</a>
+            </li>
+            <li>
+                <i class="fas fa-shopping-cart"></i>
+                <a href="EMPTY-SHOPPING.html">Shopping</a>
+            </li>
+            <li>
+                <i class="fas fa-user"></i>
+                <a href="ACCOUNT.html">Account</a>
+            </li>
+            <li>
+                <i class="fas fa-question-circle"></i>
+                <a href="HELP.html">Help</a>
+            </li>
+            <li>
+                <i class="fas fa-phone-alt"></i>
+                <a href="CONTACT-US.html">Contact-Us</a>
+            </li>
+            <li>
+                <i class="fas fa-info"></i>
+                <a href="ABOUT.html">About</a>
+            </li>
+        </ul>
+    </header>
+    <!--End of Header-->
+
+
+    <!--Start of Body, write here every section you want-->
+
+    <div class="background"></div>
+
+    <aside style="display: flex;
+       text-decoration: none;
+       position: fixed;
+       padding: 28px;
+       margin-bottom: 150px;
+       margin-top: 120px;
+       border-radius:30px ;
+       justify-content: space-between;
+       align-items: center;
+       border: 5px solid #003459;
+       ; width: 150px; height: 83%;">
+        <ul style="margin-top: -100px;">
+
+
+            <h1 style="font-size: 25px; margin-left: -15px; color:orange ; border-radius: 30px; text-align: center; border: solid red 3.5px;  padding:3px;">
+                MEN</h1>
+            <li style="margin-top: 30px; color: #dbe6f0;  font-size: 20px;">
+
+                <a style="margin-top: 30px; color:#041b2e; font-size: 15px;" href="#mencasual" class="active">Formal</a>
+            </li>
+            <li style="margin-top: 30px; color:  #dbe6f0; font-size: 20px;">
+
+                <a style="margin-top: 30px; color:  #041b2e; font-size: 15px;" href="#menshirts">Shirts</a>
+            </li>
+            <li style="margin-top: 30px; color:  #dbe6f0; font-size: 20px;">
+
+                <a style="margin-top: 30px; color:   #041b2e; font-size: 15px;" href="#menthirts">T-shirts</a>
+            </li>
+
+
+            <h1 style="font-size: 25px; margin-left: -15px; color:orange ;margin-top: 100px;  border-radius: 30px; text-align: center; border: solid red 3.5px; padding:3px ;">
+                WOMEN</h1>
+
+            <li style="margin-top: 30px; color:  #dbe6f0; font-size: 20px;">
+
+
+                <a style="margin-top: 30px; color:  #041b2e; font-size: 15px;" href="#womencasual">Dresses</a>
+            </li>
+            <li style="margin-top: 30px; color: #dbe6f0; font-size: 20px;">
+
+                <a style="margin-top: 30px; color:  #041b2e;font-size: 15px;" href="#womendresses">Soiree</a>
+            </li>
+            <li style="margin-top: 30px; color:  #dbe6f0; font-size: 20px;">
+
+                <a style="margin-top: 30px; color:  #041b2e; font-size: 15px; " href="#womensoiree">Casual</a>
+            </li>
+        </ul>
+    </aside>
+
+    <br><br><br><br>
+
+    <div class="welcome" style="margin-top: 100px; margin-bottom: 400px; margin-left: 450px;">
+        <img src="images/welcome.png" style="width: 1000px; height: 500; opacity: 50%; border-radius: 10%;">
+        <br><br><br><br><br><br>
+        <img src="images/welcome-text.png" style="width: 1000px; height: 500; opacity: 50%; border-radius: 10%;">
+    </div>
+
+    <div style="margin-left: 200px;">
+        <h1 style="margin-left: 150px; font-size: 45px; font-style: italic; font-weight: bolder; color: red; background-color:rgb(240, 228, 228); width: 200px; text-align: center; border-radius:20px 30px 20px 30px; border:solid rgb(110, 47, 47) 3px;">
+            MEN</h1>
+
+        <div id="mencasual">
+            <br><br><br><br>
+
+            <h1 style="margin-left: 600px; margin-bottom: -2px; font-size: 35px; font-style: italic; font-weight: bolder; color: rgb(55, 6, 119); background-color:rgb(187, 150, 150); width: 300px; text-align: center; border-radius:20px 30px 20px 30px ;  border:solid rgb(110, 47, 47) 2px; ">
+                Formal</h1>
+            <div class="Formal" style=" margin-top: 20px; width: 900px; height: 600px;    border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5);">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/Formal/1.png" style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px;"> 18$</p>
+
+                    <button id="Add" style=" margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/Formal/2.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/Formal/3.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/Formal/4.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/Formal/5.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/Formal/6.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/Formal/7.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/Formal/8.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/Formal/9.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/Formal/10.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="menshirts">
+            <br><br><br><br>
+
+            <h1 style="margin-left: 600px; margin-bottom: -2px; font-size: 35px; font-style: italic; font-weight: bolder; color: rgb(55, 6, 119); background-color:rgb(187, 150, 150); width: 300px; text-align: center; border-radius:20px 30px 20px 30px
+                        ; border:solid rgb(110, 47, 47) 2px; ">
+                Shirts</h1>
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/Shirts/1.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/Shirts/2.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/Shirts/3.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/Shirts/4.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/Shirts/5.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/Shirts/6.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/Shirts/7.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/Shirts/8.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/Shirts/9.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/Shirts/10.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="menthirts">
+            <br><br><br><br>
+
+            <h1 style="margin-left: 600px; margin-bottom: -2px; font-size: 35px; font-style: italic; font-weight: bolder; color: rgb(55, 6, 119); background-color:rgb(187, 150, 150); width: 300px; text-align: center; border-radius:20px 30px 20px 30px
+                        ; border:solid rgb(110, 47, 47) 2px; ">
+                T-shirts</h1>
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/T-Shirts/1.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/T-Shirts/2.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/T-Shirts/3.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/T-Shirts/4.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/T-Shirts/5.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/T-Shirts/6.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/T-Shirts/7.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/T-Shirts/8.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Men/T-Shirts/9.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Men/T-Shirts/10.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!--End of Men-->
+
+    <br><br><br><br><br><br><br><br>
+
+    <!--Start of Women-->
+    <div class="women " style="margin-left: 200px; ">
+        <h1 style="margin-left: 150px; font-size: 45px; font-style: italic; font-weight: bolder; color: red; background-color:rgb(240, 228, 228); width: 200px; text-align: center; border-radius:20px 30px 20px 30px; border:solid rgb(110, 47, 47) 3px; ">
+            WOMEN</h1>
+        <div id="womencasual">
+            <br><br><br><br>
+
+            <h1 style="margin-left: 600px; margin-bottom: -2px; font-size: 35px; font-style: italic; font-weight: bolder; color: rgb(55, 6, 119); background-color:rgb(187, 150, 150); width: 300px; text-align: center; border-radius:20px 30px 20px 30px
+                        ; border:solid rgb(110, 47, 47) 2px; ">
+                Dresses</h1>
+            <div class="Formal " style=" width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Dresses/1.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Dresses/2.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                    <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                        <img src="images/Women/Dresses/3.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                        <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                        <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; "><img
+                                src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></button>
+
+
+                    </div>
+                    <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                        <img src="images/Women/Dresses/4.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                        <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                        <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; "><img
+                                src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></button>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Dresses/5.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Dresses/6.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Dresses/7.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Dresses/8.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Dresses/9.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Dresses/10.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="womendresses">
+            <br><br><br><br>
+
+            <h1 style="margin-left: 600px; margin-bottom: -2px; font-size: 35px; font-style: italic; font-weight: bolder; color: rgb(55, 6, 119); background-color:rgb(187, 150, 150); width: 300px; text-align: center; border-radius:20px 30px 20px 30px
+                        ; border:solid rgb(110, 47, 47) 2px; ">
+                Soiree</h1>
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Soiree/1.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Soiree/2.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Soiree/3.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Soiree/4.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Soiree/5.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Soiree/6.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Soiree/7.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Soiree/8.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Soiree/9.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Soiree/10.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="womensoiree">
+            <br><br><br><br>
+
+            <h1 style="margin-left: 600px; margin-bottom: -2px; font-size: 35px; font-style: italic; font-weight: bolder; color: rgb(55, 6, 119); background-color:rgb(187, 150, 150); width: 300px; text-align: center; border-radius:20px 30px 20px 30px
+                        ; border:solid rgb(110, 47, 47) 2px; ">
+                Casual</h1>
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Casual/1.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Casual/2.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Casual/3.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Casual/4.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Casual/5.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Casual/6.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Casual/7.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Casual/8.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+                </div>
+
+            </div>
+            <div class="Formal " style=" margin-top: 20px; width: 900px; height: 600px; border-radius: 40px ; margin-left: 300px;background-color:rgb(241, 205, 205,0.5); ">
+
+
+                <div style=" float: left; width: 350px; height: 500px; background-color: rgb(240, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red;margin-left: 90px; ">
+                    <img src="images/Women/Casual/9.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style="margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; ">
+                        <a href="SHOPPING.html"><img src="images/Buy.png " alt=" "
+                                style="width: 110px; height: 60px; border-radius: 20px; "></a>
+                    </button>
+
+
+                </div>
+                <div style=" width: 350px; height: 500px; float: left; margin-left: 50px; background-color: rgb(236, 228, 228); margin-top: 50px; border-radius:20px ; border: solid red; ">
+                    <img src="images/Women/Casual/10.png " style="border-radius:20px ; margin-left: 25px; margin-top: 50px; " width="300 " height="350 ">
+                    <p style="margin-left:160px; color: crimson; font-size: 20px; "> 18$</p>
+                    <button style=" margin-left:120px; border:solid rgb(233, 214, 214); width: 120px; height: 70px; border-radius: 20px; "><img
+                            src="images/Buy.png " alt=" "
+                            style="width: 110px; height: 60px; border-radius: 20px; "></button>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<!--End of Body-->
+
+
+<!--Start of Footer-->
+<footer>
+    <div>Copyrights &copy; 2020 All rights reserved</div>
+    <div class="social ">
+        <a href="https://www.facebook.com/ " target="_blank "><i class="fab fa-facebook-f "></i></a>
+        <a href="https://twitter.com/ " target="_blank "><i class="fab fa-twitter "></i></a>
+        <a href="https://www.youtube.com/ " target="_blank "><i class="fab fa-youtube "></i></a>
+        <a href="https://www.instagram.com/ " target="_blank "><i class="fab fa-instagram "></i></a>
+        <a href="https://rss.com/ " target="_blank "><i class="fas fa-rss "></i></a>
+    </div>
+</footer>
+<!--End of Footer-->
+
+</body>
+
+</html>
