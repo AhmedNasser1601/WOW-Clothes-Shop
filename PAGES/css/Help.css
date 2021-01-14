@@ -1,0 +1,591 @@
+/*Global*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, tahoma;
+}
+
+
+/*End of Global*/
+
+
+/*Start of header*/
+
+header {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    background-color: #23baf4;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #003459;
+    ;
+}
+
+header .logo img {
+    width: 250px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+header ul li:last-of-type {
+    margin-right: 0px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #e5f8ff;
+    font-style: italic;
+}
+
+header ul li a i {
+    color: #003459;
+    margin-right: 5px;
+}
+
+header ul li .active {
+    color: #003459;
+}
+
+header ul li a:hover {
+    color: #003459;
+}
+
+
+/*End of header*/
+
+
+/*Start of Body*/
+
+.help {
+    width: 100%;
+    height: fit-content;
+    background-size: cover;
+    background-image: url(../images/wood.jpg);
+    padding: 20px;
+}
+
+.help section {
+    width: 80%;
+    height: fit-content;
+    background-color: #EEEEEE;
+    margin: 50px auto;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.help section .title {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #003459;
+    height: 100%;
+}
+
+.help section .title i {
+    margin-bottom: 10px;
+}
+
+.help section .questions {
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+    background-color: #EEEEEE;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-right: 0;
+}
+
+.help section .questions details {
+    background-color: #003459;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.help section .questions details summary {
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    background-color: #EEEEEE;
+    color: #003459;
+}
+
+.help section .questions details summary:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+.help section .questions details p {
+    margin: 20px 30px;
+    margin-bottom: 20;
+}
+
+.help section .questions details .last {
+    margin-top: 0;
+}
+
+.help section .questions details ul {
+    margin: 20px 60px;
+}
+
+.help section .questions details ul li {
+    margin-bottom: 10px;
+}
+
+.help section .questions details p a {
+    text-decoration: none;
+}
+
+.help section .questions details p span {
+    color: #23baf4;
+}
+
+.help .about {
+    width: 80%;
+    height: fit-content;
+    background-color: #EEEEEE;
+    padding: 40px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.help .about h2,
+.help .contactus h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #003459;
+}
+
+.help .about .pictures {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.help .about .pictures .picture {
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 15px 3px rgb(185, 185, 185);
+    padding: 10px;
+    transition: all ease-in-out 0.4s;
+    cursor: pointer;
+}
+
+.help .about .pictures .picture img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.help .about .pictures .picture:hover {
+    background-color: rgb(127, 183, 207);
+}
+
+.help .about .pictures .picture h3 {
+    text-align: center;
+    color: #23baf4;
+}
+
+.help .about .pictures .picture:hover h3 {
+    color: #003459;
+}
+
+.help .contactus {
+    width: 80%;
+    height: fit-content;
+    background-color: #EEEEEE;
+    padding: 40px;
+    margin: 50px auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.help .contactus h2 {
+    margin-bottom: 30px;
+}
+
+.help .contactus .contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help .contactus .contacts button {
+    margin: 20px 0;
+    width: 150px;
+    height: fit-content;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background-color: #23baf4;
+    color: white;
+    border-radius: 5px;
+    transition: all ease-in-out 0.4s;
+    cursor: pointer;
+}
+
+.help .contactus .contacts button:first-of-type {
+    margin-right: 30px;
+}
+
+.help .contactus .contacts button:last-of-type {
+    margin-left: 30px;
+}
+
+.help .contactus .contacts button:hover {
+    background-color: rgb(0, 133, 190);
+}
+
+.help .contactus .contacts span {
+    min-width: 40px;
+    min-height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #003459;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+.help .contactus .contacts span::before,
+.help .contactus .contacts span::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #003459;
+    display: block;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -20px;
+    left: 5px;
+}
+
+.help .contactus .contacts span::after {
+    top: 58px;
+}
+
+
+/*End of Body*/
+
+
+/*Start of Footer*/
+
+footer {
+    display: flex;
+    width: auto;
+    height: 3rem;
+    padding: 20px;
+    background-color: #003459;
+    color: rgb(252, 148, 29);
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social i {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #23BAF4;
+    color: rgb(20, 30, 100);
+    border-radius: 50%;
+    display: inline-block;
+    transition: all ease-in-out 0.4s;
+}
+
+footer .social i:last-of-type {
+    margin-right: 5px;
+}
+
+footer .social .fa-facebook-f,
+footer .social .fa-twitter,
+footer .social .fa-youtube,
+footer .social .fa-instagram,
+footer .social .fa-rss {
+    background-color: #23baf4;
+}
+
+footer .social .fa-facebook-f:hover,
+footer .social .fa-twitter:hover,
+footer .social .fa-youtube:hover,
+footer .social .fa-instagram:hover,
+footer .social .fa-rss:hover {
+    background-color: rgb(0, 133, 190);
+}
+
+
+/*End of Footer*/
+
+
+/*Responsive media*/
+
+@media (max-width: 419px) {
+    header {
+        flex-direction: column;
+    }
+    header .logo {
+        margin-bottom: 10px;
+    }
+    header ul {
+        flex-direction: column;
+        align-items: flex-start;
+        width: fit-content;
+    }
+    header ul li {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .help section {
+        flex-direction: column;
+    }
+    .help section .title {
+        width: 100%;
+        height: 30%;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .help section .title i {
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+    .help section .questions {
+        width: 100%;
+        height: 70%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 0;
+    }
+    .help .about {
+        padding: 20px;
+    }
+    .help .about h2,
+    .help .contactus h2 {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .help .about .pictures {
+        height: auto;
+        flex-direction: column;
+    }
+    .help .about .pictures .picture {
+        width: 80%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .help .about .pictures .picture h3 {
+        margin-top: 20px;
+    }
+    .help .about .pictures .picture:last-of-type h3 {
+        margin-top: 0px;
+    }
+    .help .contactus .contacts {
+        flex-direction: column;
+    }
+    .help .contactus .contacts button:first-of-type {
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    .help .contactus .contacts button:last-of-type {
+        margin: 0px;
+        margin-top: 30px;
+    }
+    .help .contactus .contacts span::before,
+    .help .contactus .contacts span::after {
+        content: "";
+        transform: rotate(0deg);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #003459;
+    }
+    .help .contactus .contacts span::before {
+        top: 19px;
+        left: -33px;
+    }
+    .help .contactus .contacts span::after {
+        top: 19px;
+        left: 43px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer div:first-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 549px) {
+    header {
+        flex-direction: column;
+    }
+    header .logo {
+        margin-bottom: 10px;
+    }
+    header ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header ul li {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .help section {
+        flex-direction: column;
+    }
+    .help section .title {
+        width: 100%;
+        height: 30%;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .help section .title i {
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+    .help section .questions {
+        width: 100%;
+        height: 70%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 0;
+    }
+    .help .about {
+        padding: 20px;
+    }
+    .help .about h2,
+    .help .contactus h2 {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .help .about .pictures {
+        height: auto;
+        flex-direction: column;
+    }
+    .help .about .pictures .picture {
+        width: 80%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .help .about .pictures .picture h3 {
+        margin-top: 20px;
+    }
+    .help .about .pictures .picture:last-of-type h3 {
+        margin-top: 0px;
+    }
+    .help .contactus .contacts {
+        flex-direction: column;
+    }
+    .help .contactus .contacts button:first-of-type {
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    .help .contactus .contacts button:last-of-type {
+        margin: 0px;
+        margin-top: 30px;
+    }
+    .help .contactus .contacts span::before,
+    .help .contactus .contacts span::after {
+        content: "";
+        transform: rotate(0deg);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #003459;
+    }
+    .help .contactus .contacts span::before {
+        top: 19px;
+        left: -33px;
+    }
+    .help .contactus .contacts span::after {
+        top: 19px;
+        left: 43px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer div:first-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 681px) {
+    header {
+        flex-direction: column;
+    }
+    header .logo {
+        margin-bottom: 10px;
+    }
+    header ul {
+        margin-top: 20px;
+    }
+    header ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .help .contactus {
+        padding: 30px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer div:first-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 682px) and (max-width: 900px) {
+    header {
+        flex-direction: column;
+    }
+    header .logo {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 940px) {
+    header {
+        flex-direction: row;
+    }
+    header .logo {
+        margin-bottom: 10px;
+    }
+    header ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

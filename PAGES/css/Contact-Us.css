@@ -1,0 +1,285 @@
+/*Global*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, tahoma;
+}
+
+
+/*End of Global*/
+
+
+/*Start of header*/
+
+header {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    background-color: #23baf4;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #003459;
+    ;
+}
+
+header .logo img {
+    width: 250px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+header ul li:last-of-type {
+    margin-right: 0px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #e5f8ff;
+    font-style: italic;
+}
+
+header ul li a i {
+    color: #003459;
+    margin-right: 5px;
+}
+
+header ul li .active {
+    color: #003459;
+}
+
+header ul li a:hover {
+    color: #003459;
+}
+
+
+/*End of header*/
+
+.container {
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.contact-section {
+    position: fixed;
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(../images/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 88%;
+    padding: 2%;
+}
+
+.contact-section .container h2 {
+    font-size: 35px;
+    color: gold;
+    text-align: center;
+    font-weight: 400px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+.contact-section .container p {
+    text-align: center;
+    width: 70%;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 70%;
+    padding: 10px;
+    margin: 1.5%;
+    border: none;
+    outline: none;
+    background-color: rgba(136, 133, 133, .5);
+    color: whitesmoke;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background-color: #004;
+    border-radius: 10px;
+    border: #23baf4 solid 2px;
+}
+
+.form {
+    text-align: center;
+}
+
+.contact-form .submit {
+    width: 25%;
+    height: 35px;
+    background-color: #002;
+    color: white;
+    margin-left: 3%;
+    outline: none;
+    border: 2px solid;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.contact-form .submit:hover {
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: #23baf4;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.contact-form input::placeholder {
+    color: white;
+}
+
+.contact-form textarea::placeholder {
+    color: white;
+}
+
+
+/*Start of Footer*/
+
+footer {
+    display: flex;
+    width: auto;
+    height: 3rem;
+    padding: 20px;
+    background-color: #003459;
+    color: rgb(252, 148, 29);
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social i {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #23BAF4;
+    color: rgb(20, 30, 100);
+    border-radius: 50%;
+    display: inline-block;
+    transition: all ease-in-out 0.4s;
+}
+
+footer .social i:last-of-type {
+    margin-right: 5px;
+}
+
+footer .social .fa-facebook-f,
+footer .social .fa-twitter,
+footer .social .fa-youtube,
+footer .social .fa-instagram,
+footer .social .fa-rss {
+    background-color: #23baf4;
+}
+
+footer .social .fa-facebook-f:hover,
+footer .social .fa-twitter:hover,
+footer .social .fa-youtube:hover,
+footer .social .fa-instagram:hover,
+footer .social .fa-rss:hover {
+    background-color: rgb(0, 133, 190);
+}
+
+
+/*End of Footer*/
+
+
+/*Responsive media*/
+
+@media (max-width: 419px) {
+    header {
+        flex-direction: column;
+    }
+    header .logo {
+        margin-bottom: 10px;
+    }
+    header ul {
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+    }
+    header ul li {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer div:first-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 549px) {
+    header {
+        flex-direction: column;
+    }
+    header .logo {
+        margin-bottom: 10px;
+    }
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    header ul li {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer div:first-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 649px) {
+    header {
+        flex-direction: column;
+    }
+    header .logo {
+        margin-bottom: 10px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer div:first-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 900px) {
+    header {
+        flex-direction: column;
+    }
+    header .logo {
+        margin-bottom: 10px;
+    }
+}
