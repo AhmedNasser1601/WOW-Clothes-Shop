@@ -1,7 +1,7 @@
 # Wow-Clothes-Shop
 
 Online Clothes Shop named "WoW", which has many services, done with HTML 5, CSS 3 and JavaScript. It was uploaded to a Web-Hosting service at the following url:
-https://wowclothes.000webhostapp.com/
+<a href="https://wowclothes.000webhostapp.com">WoW Clothes Shop</a>
 
 Inquiries => ahmednasser1601@gmail.com
 
