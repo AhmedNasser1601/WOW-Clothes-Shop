@@ -1,7 +1,7 @@
 # Wow-Clothes-Shop
 
-Online Clothes Shop named "WoW", which has many services, done with HTML 5, CSS 3 and JavaScript.
-Available here: <a href="https://ahmednasser1601.github.io/WOW-Clothes-Shop">WoW Clothes Shop</a>
+> Online Clothes Shop named "WoW", which has many services, done with HTML 5, CSS 3 and JavaScript.
+>> Available here: <a href="https://ahmednasser1601.github.io/WOW-Clothes-Shop">WoW Clothes Shop</a>
 
 Inquiries => ahmednasser1601@gmail.com
 
