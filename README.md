@@ -4,5 +4,4 @@
 
 > <div alt="Stats" align="center"><img src="https://user-images.githubusercontent.com/60184582/115624993-b5788e80-a2fb-11eb-9f8d-8ef284cb54e9.jpg"/>
 
-> <div alt="Stats" align="center"><img src="https://img.shields.io/static/v1?label=AhmedNasser1601&message=WOW-Clothes-Shop&color=blue&logo=github"/></div>
-> <div alt="Stats" align="center"><img src="https://img.shields.io/github/stars/AhmedNasser1601/WOW-Clothes-Shop?style=social"/> &nbsp; <img src="https://img.shields.io/github/forks/AhmedNasser1601/WOW-Clothes-Shop?style=social"/></div>
+> <div alt="Stats" align="center"><img src="https://img.shields.io/static/v1?label=AhmedNasser1601&message=WOW-Clothes-Shop&color=blue&logo=github"/><br><img src="https://img.shields.io/github/stars/AhmedNasser1601/WOW-Clothes-Shop?style=social"/> &nbsp; <img src="https://img.shields.io/github/forks/AhmedNasser1601/WOW-Clothes-Shop?style=social"/><br><img src="https://hits.sh/github.com/AhmedNasser1601/WOW-Clothes-Shop.svg?label=Visits"/></div>
