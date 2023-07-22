@@ -1,8 +1,8 @@
-# Wow-Clothes-Shop
+> <div alt="Stats" align="center"><a href="https://ahmednasser1601.github.io/WOW-Clothes-Shop"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&duration=2500&pause=1000&color=F7A52C&background=000000&center=true&vCenter=true&repeat=false&width=350&lines=Available+here;%7C%3E+WoW+Clothes+Shop+%3C%7C"/></a></div>
 
-> Online Clothes Shop named "WoW", which has many services, done with HTML 5, CSS 3 and JavaScript.
->> Available here: [<kbd><br>WoW Clothes Shop<br></kbd>](https://ahmednasser1601.github.io/WOW-Clothes-Shop)
+> <div alt="Stats" align="center"><code>WoW</code> is an online clothes shop done with <code>HTML5 & CSS3 & JavaScript</code></div>
 
-> ![Screenshot 2021-04-21 234342](https://user-images.githubusercontent.com/60184582/115624993-b5788e80-a2fb-11eb-9f8d-8ef284cb54e9.jpg)
+> <div alt="Stats" align="center"><img src="https://user-images.githubusercontent.com/60184582/115624993-b5788e80-a2fb-11eb-9f8d-8ef284cb54e9.jpg"/>
 
->[<kbd><br>![repo](https://img.shields.io/static/v1?label=AhmedNasser1601&message=WOW-Clothes-Shop&color=blue&logo=github) ![stars](https://img.shields.io/github/stars/AhmedNasser1601/WOW-Clothes-Shop?style=social) ![forks](https://img.shields.io/github/forks/AhmedNasser1601/WOW-Clothes-Shop?style=social) <br></kbd>](#)
+> <div alt="Stats" align="center"><img src="https://img.shields.io/static/v1?label=AhmedNasser1601&message=WOW-Clothes-Shop&color=blue&logo=github"/></div>
+> <div alt="Stats" align="center"><img src="https://img.shields.io/github/stars/AhmedNasser1601/WOW-Clothes-Shop?style=social"/> &nbsp; <img src="https://img.shields.io/github/forks/AhmedNasser1601/WOW-Clothes-Shop?style=social"/></div>
